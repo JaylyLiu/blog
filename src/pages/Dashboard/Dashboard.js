@@ -56,7 +56,6 @@ class Dashboard extends React.Component {
 Dashboard.defaultProps = {
   string1: '这是默认值'
 }
-
 /**
  * 设置this.props 的数据类型和是否必须传递
  * https://reactjs.org/docs/typechecking-with-proptypes.html#default-prop-values
