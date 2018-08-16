@@ -1,0 +1,14 @@
+.dashboard {
+  color: black;
+  border-bottom: 1px solid #ccc; }
+  .dashboard .dashboard-add-btn {
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    outline: none;
+    background-color: none;
+    padding: 30px 20px; }
+  .dashboard .dashboard-add-btn:hover {
+    font-weight: bolder; }
