@@ -212,6 +212,9 @@ export { default } from './ComponentName';
 ### <h2 id="2"> 组件开发文件内容规范 </h2>
 
 ## css使用规范
+
+[具体文档](https://github.com/JaylyLiu/blog/blob/master/css.md)
+
 在对应的文件中创建 ComponentName.scss 文件之后，将自动创建一个对应编译后的 ComponentName.css 文件，直接引用css文件进行使用即可；
 
 > import './FileName.css';<br/>
