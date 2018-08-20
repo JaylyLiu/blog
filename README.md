@@ -37,16 +37,16 @@ npm start
 
 #### <h3 id="1.1">组件内的文件结构</h3>
 
-		例：ComponentName 组件包含
-		/ ComponentName.js 
-		/ ComponentName.css 
-		/ ComponentName.scss
-		/ index.js 作为组件入口文件，指派默认主体文件，本组件的主体文件为ComponentName.js
-		/ images （非必须）
-		/ |-- index.js 引用images文件夹下全部图片，进行统一抛出（export）
-		/ |-- img1.png image目录下的实例图片
-		/ |-- img2.svg image目录下的实例图片
-		/ |-- img...
+	例：ComponentName 组件包含
+	/ ComponentName.js 
+	/ ComponentName.css 
+	/ ComponentName.scss
+	/ index.js 作为组件入口文件，指派默认主体文件，本组件的主体文件为ComponentName.js
+	/ images （非必须）
+	/ |-- index.js 引用images文件夹下全部图片，进行统一抛出（export）
+	/ |-- img1.png image目录下的实例图片
+	/ |-- img2.svg image目录下的实例图片
+	/ |-- img...
 
 
 #### <h3 id="1.2">组件内各文件的作用及命名规则</h3>
@@ -82,19 +82,19 @@ export { default } from './ComponentName';
 
 1. <h4 id="2.2.1">开发者声明</h4>
 	
-```
+```js
 /**
-	* @author: Jayly 2018-09-01
-	* @updatedBy: KG 2018-09-14（非必须,仅当有其他人修改时）
-	* @updatedBY: Gulu 2018-10-10（非必须,仅当有其他人修改时）
-	* TODO：表示这一阶段开发完成但是遗留的问题(非必须, 仅当有未完成任务时添加)
-	*   1. 问题描述1
-	*   2. 问题描述2
-	*/
+ * @author: Jayly 2018-09-01
+ * @updatedBy: KG 2018-09-14（非必须,仅当有其他人修改时）
+ * @updatedBY: Gulu 2018-10-10（非必须,仅当有其他人修改时）
+ * TODO：表示这一阶段开发完成但是遗留的问题(非必须, 仅当有未完成任务时添加)
+ *   1. 问题描述1
+ *   2. 问题描述2
+ */
 ```
 2. <h4 id="2.2.2">需要引入的外部模块</h4>
 	
-```
+```js
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
@@ -104,7 +104,7 @@ import classNames from 'classnames';
 
 > 必须放在引入模块的后面，否则会报错
 
-```
+```js
 let param1 = '' ...
 
 ```
@@ -157,6 +157,7 @@ class ComponentName extends React.Component {
 
 
 ```js
+
 /**
  * 这里不强制要求备注，如需特殊说明自行备注；
  * prop属性名：设此默认值的原因
@@ -183,6 +184,7 @@ ComponentName.defaultProps = {
 
 
 ```js
+
 例1：ComponentName 组件
 单个注释和变量写在一起
 ComponentName.propTypes = {
@@ -211,8 +213,8 @@ ComponentName.propTypes = {
 7. <h4 id="2.2.7">返回文件默认类</h4>
 > 将类抛出
 
-```
-	export default ComponentName
+```js
+export default ComponentName
 ```
 
 
@@ -260,7 +262,7 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 ### 设置
 可以将如下json拷贝至Vscode的Using Settings, 然后删除注释语句
 
-```
+```js
 {
 	 // 控制何时自动保存已更新文件，此处是在设定的延迟时间之后自动保存，默认为1秒
     "files.autoSave": "afterDelay",
