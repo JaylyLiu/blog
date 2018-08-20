@@ -265,7 +265,7 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
 ```js
 {
-	 // 控制何时自动保存已更新文件，此处是在设定的延迟时间之后自动保存，默认为1秒
+    // 控制何时自动保存已更新文件，此处是在设定的延迟时间之后自动保存，默认为1秒
     "files.autoSave": "afterDelay",
     // 调整窗口的缩放级别
     "window.zoomLevel": 1,
