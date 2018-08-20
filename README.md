@@ -250,12 +250,14 @@ export { default } from './ComponentName';
 **Mithril Emmet**：用于使用Emmet语法，快速编写代码
 
 ### 快捷键
-参考以下文档
-
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+参考以下文档<br>
+Mac<br>
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf <br>
+Linux<br>
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
 ### 设置
-可以将如下json拷贝至Vscode的Using Settings 
+可以将如下json拷贝至Vscode的Using Settings, 然后删除注释语句
 
 ```
 {
