@@ -212,17 +212,79 @@ export { default } from './ComponentName';
 ### <h2 id="2"> 组件开发文件内容规范 </h2>
 
 ## css使用规范
-在对应的文件中创建 FileName.scss 文件之后，将自动创建一个对应编译后的 FileName.css 文件，直接引用css文件进行使用即可；
+在对应的文件中创建 ComponentName.scss 文件之后，将自动创建一个对应编译后的 ComponentName.css 文件，直接引用css文件进行使用即可；
 
 > import './FileName.css';<br/>
 > import styles from './FileName.css';
 
-* css/sass名一律和组件名保持一致
-* className 一律中横行小写
+* css/sass文件名一律和组件名保持一致
+* className 一律用中横线分割，首字大写
+* 组件中的类名：以组件名开头-功能;
+	* 最外层元素的className必须同组件名保持一致
+	
+	```
+	例如：
+
+		<div className="ComponentName">
+			<ul className="ComponentName-Lists">
+				<li className="ComponentName-List">
+					<div className="ComponentName-ContentBox">
+						<img className="ComponentName-Pic" src={Pics.header} width="40" />
+						<span className="ComponentName-Description"></span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	```
+
 
 ## HTML 使用规范
 
 ## Javascript 使用规范
+
+## VScode 使用技巧
+
+### 插件
+**GitLens — Git supercharged**：用于Git追踪代码来源
+
+**Mithril Emmet**：用于使用Emmet语法，快速编写代码
+
+### 快捷键
+参考以下文档
+
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+
+### 设置
+可以将如下json拷贝至Vscode的Using Settings 
+
+```
+{
+	 // 控制何时自动保存已更新文件，此处是在设定的延迟时间之后自动保存，默认为1秒
+    "files.autoSave": "afterDelay",
+    // 调整窗口的缩放级别
+    "window.zoomLevel": 1,
+    // 一个制表符等于的空格数，这里固定为两个空格
+    "editor.tabSize": 2,
+    // 在 VS Code 中重命名或移动文件时启用或禁用自动更新 import 语句的路径。可选值有: "prompt" (在每次重命名时提示)、"always" (始终自动更新路径) 和 "never" (从不重命名路径且不要提示)。
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // 为指定的语法定义配置文件或使用带有特定规则的配置文件。
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    // 控制折叠范围的计算方式。"auto" 将使用语言特定的折叠策略 (若可用)。"indentation" 将强制使用基于缩进的折叠策略。
+    "editor.foldingStrategy": "indentation",
+    // 启用后，按下 TAB 键，将展开 Emmet 缩写。
+    "emmet.triggerExpansionOnTab": true,
+    // 指定工作台中使用的颜色主题。
+    "workbench.colorTheme": "Brackets Light Pro",
+    // gitlens信息提示
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+}
+```
+
+
 
 
 
