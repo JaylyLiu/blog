@@ -83,6 +83,7 @@ export { default } from './ComponentName';
 1. <h4 id="2.2.1">开发者声明</h4>
 	
 ```js
+
 /**
  * @author: Jayly 2018-09-01
  * @updatedBy: KG 2018-09-14（非必须,仅当有其他人修改时）
@@ -115,15 +116,15 @@ let param1 = '' ...
 ```js
 
 class ComponentName extends React.Component {
-	/**
-		* 这里要求统一写注释
-		* 变量名: 数据类型 用途描述
-		* value1: string 用途描述
-		* number1: number 用途描述 
-		* string1: string 用途描述
-		* array1: array 用途描述
-		* object1: object 用途描述
-		*/
+      /**
+	* 这里要求统一写注释
+	* 变量名: 数据类型 用途描述
+	* value1: string 用途描述
+	* number1: number 用途描述 
+	* string1: string 用途描述
+	* array1: array 用途描述
+	* object1: object 用途描述
+	*/
 	state = {
 		value1: '',
 		number1: 12,
