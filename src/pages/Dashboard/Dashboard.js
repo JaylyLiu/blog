@@ -44,6 +44,11 @@ class Dashboard extends React.Component {
         <h4>{string2}</h4>
         <div>{infoCards}</div>
         <button className="dashboard-add-btn" onClick={this.addNumberValue}>Add Number</button>
+        <div className="flex-box">
+          <div>Js</div>
+          <div>CSS</div>
+          <div>HTML</div>
+        </div>
       </div>
     )
   }
