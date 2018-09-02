@@ -1,0 +1,96 @@
+@charset "utf-8";
+@mixin defaultFont( $font-size, $font-weight, $color ) {
+  font-family: Roboto;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color;
+}
+.giftcards {
+  margin: 20px 20px 20px 0;
+  width: 367px;
+  height: 488px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.1);
+  .giftcards-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 367px;
+    height: 239px;
+    background-color: rgba(0, 0, 0, 0.61);
+    // background-image: 
+      .span1 {
+        @include defaultFont( 32px, 500, #ffffff );
+      }
+      .span2 {
+        @include defaultFont( 18px, 300, #ffffff );
+
+      }
+  }
+  .giftcards-part2 {
+    padding: 16px 30px 30px;
+    .button1 {
+      
+      @include defaultFont( 14px, 500, #ff4338 );
+      width: 307px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: #ffffff;
+      border: solid 1px #ff4338;
+      outline: none;
+    }
+    .span3 {
+      @include defaultFont( 23px, 500, #323232 ) 
+
+    }
+    .span4 {
+      @include defaultFont( 14px, normal, #323232 );
+      line-height: 1.5;
+    }
+    .input-button{
+      width: 307px;
+      height: 42px;
+      padding: 20px 0 0 0;
+      
+      
+
+      .input1 {
+        width: 172px;
+        height: 40px;
+        margin: 0;
+        padding: 0 15px;
+        font-size: 100%;
+        border:  solid 1px #dddddd;
+        outline: none;
+        border-radius: 4px 0 0 4px;
+        border-right: none;
+        vertical-align: top;
+
+        // border-radius: 4px;
+        // border:  solid 1px #dddddd;
+  
+
+      }
+      .button2 {
+        @include defaultFont( 14px, normal, #ff4338 );
+
+        width: 104px;
+        height: 42px;
+        border-radius: 0px 4px 4px 0px;
+        border: solid 1px #ff4338;
+        background-color: #ffffff;
+        outline: none;
+        vertical-align: top;
+     }
+
+    }
+    
+  }
+  
+}

@@ -1,0 +1,105 @@
+.giftcards {
+  margin: 20px 20px 20px 0;
+  width: 367px;
+  height: 488px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.1); }
+  .giftcards .giftcards-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 367px;
+    height: 239px;
+    background-color: rgba(0, 0, 0, 0.61); }
+    .giftcards .giftcards-part1 .span1 {
+      font-family: Roboto;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff; }
+    .giftcards .giftcards-part1 .span2 {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff; }
+  .giftcards .giftcards-part2 {
+    padding: 16px 30px 30px; }
+    .giftcards .giftcards-part2 .button1 {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ff4338;
+      width: 307px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: #ffffff;
+      border: solid 1px #ff4338;
+      outline: none; }
+    .giftcards .giftcards-part2 .span3 {
+      font-family: Roboto;
+      font-size: 23px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #323232; }
+    .giftcards .giftcards-part2 .span4 {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #323232;
+      line-height: 1.5; }
+    .giftcards .giftcards-part2 .input-button {
+      width: 307px;
+      height: 42px;
+      padding: 20px 0 0 0; }
+      .giftcards .giftcards-part2 .input-button .input1 {
+        width: 172px;
+        height: 40px;
+        margin: 0;
+        padding: 0 15px;
+        font-size: 100%;
+        border: solid 1px #dddddd;
+        outline: none;
+        border-radius: 4px 0 0 4px;
+        border-right: none;
+        vertical-align: top; }
+      .giftcards .giftcards-part2 .input-button .button2 {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff4338;
+        width: 104px;
+        height: 42px;
+        border-radius: 0px 4px 4px 0px;
+        border: solid 1px #ff4338;
+        background-color: #ffffff;
+        outline: none;
+        vertical-align: top; }

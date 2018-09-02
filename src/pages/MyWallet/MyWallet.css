@@ -1,0 +1,5 @@
+.my-wallet {
+  display: flex;
+  margin: 70px 0; }
+  .my-wallet .my-wallet-left {
+    width: 752px; }

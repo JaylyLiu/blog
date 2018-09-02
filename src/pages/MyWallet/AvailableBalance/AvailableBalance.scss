@@ -1,0 +1,36 @@
+@mixin defaultFont($font-size,  $font-weight, $color) {
+  font-family: Roboto;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color;
+}
+
+.my-balance-availablebalance {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 30px;
+  .my-balance-availablebalance-span1 {
+    @include defaultFont( 18px, 300,  #555555 );
+  }
+  .my-balance-availablebalance-span2 {
+    @include defaultFont( 40px, 300, #323232 );
+    margin: 20px 0 10px;
+
+  }
+  .my-balance-availablebalance-span3 {
+    @include defaultFont( 14px, normal, #333333 );
+    margin: 0 0 30px;
+
+  }
+  .my-balance-availablebalance-span4 {
+    @include defaultFont( 12px, 300, #ababab );
+    line-height: 1.42;
+    width: 470px;
+    height: 81px;
+  }
+}

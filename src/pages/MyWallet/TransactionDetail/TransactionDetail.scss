@@ -1,0 +1,54 @@
+@charset "utf-8";
+@mixin defaultFont($font-size, $font-weight, $color) {
+  font-family: Roboto;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:$color;
+  
+}
+.transactiondetail{
+  margin: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.1);
+  
+  .transactiondetail-div{
+    @include defaultFont( 23px, 300, #333333 );
+    border-bottom: solid 1px #dddddd;
+    padding-bottom: 30px;
+  }
+  
+  table {
+    @include defaultFont( 14px, normal, #666666 );
+      width: 100%;
+      
+      th,td {
+        height: 55px;
+        text-align: left;
+        border-bottom:  solid 1px #dddddd;
+      }
+            
+      tr th:last-child {
+        text-align: right;
+      }
+      tr td:last-child {
+        @include defaultFont( 14px, 500, #2060a6 );
+        text-align: right;
+        cursor: pointer;
+      }
+
+      
+    }
+
+}
+    
+    
+    
+    
+ 
+

@@ -1,0 +1,45 @@
+.my-balance-availablebalance {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 30px; }
+  .my-balance-availablebalance .my-balance-availablebalance-span1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #555555; }
+  .my-balance-availablebalance .my-balance-availablebalance-span2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323232;
+    margin: 20px 0 10px; }
+  .my-balance-availablebalance .my-balance-availablebalance-span3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin: 0 0 30px; }
+  .my-balance-availablebalance .my-balance-availablebalance-span4 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ababab;
+    line-height: 1.42;
+    width: 470px;
+    height: 81px; }

@@ -1,7 +1,35 @@
-@charset "utf-8";
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+.root-child {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .root-child .app {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 30px; }
+    .root-child .app .app-img {
+      display: flex;
+      align-items: center; }
+      .root-child .app .app-img img {
+        width: 60.5px;
+        height: 38px; }
+    .root-child .app .app-header {
+      list-style: none;
+      height: 36px;
+      margin: 0;
+      padding: 16px 23px; }
+      .root-child .app .app-header li {
+        display: inline-block;
+        padding: 0 20px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        line-height: 38px; }
+  .root-child .page-box {
+    width: 1120px;
+    margin: 0 80px; }
